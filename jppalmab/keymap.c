@@ -423,14 +423,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false;
          case MACRO2:
     if (record->event.pressed) {
-            SEND_STRING("JUAN PABLO ANDRES PALMA BUSTOS\n17.651.062-5\nCuenta Corriente\n0-000-72-44728-0\nBanco Santander\nJPPALMA@UC.CL");
+            SEND_STRING("MACRO2");
         } else {
             
         }
         return false;
          case MACRO3:
     if (record->event.pressed) {
-            SEND_STRING("IE28AIBK93129226846041");
+            SEND_STRING("MACRO3");
         } else {
             
         }
