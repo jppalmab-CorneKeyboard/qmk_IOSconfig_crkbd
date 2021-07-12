@@ -96,13 +96,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_ADJUST] = LAYOUT(
   //|-----------------------------------------------------|                    |-----------------------------------------------------|
-    XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, RGB_TOG,                       XXXXXXX, XXXXXXX,  XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,\
+    XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, RGB_TOG,                       XXXXXXX, XXXXXXX,  XXXXXXX,   XXXXXXX,   XXXXXXX,   RESET,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     XXXXXXX, RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,                       XXXXXXX, XXXXXXX,  XXXXXXX,   XXXXXXX,   XXXXXXX,   RESET,  \
+     XXXXXXX, RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,                       XXXXXXX, XXXXXXX,  XXXXXXX,   XXXXXXX,   KC_UP,   XXXXXXX,  \
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     XXXXXXX, RGB_HUD, RGB_SAD, RGB_VAD, RGB_SPD, XXXXXXX,                        XXXXXXX, XXXXXXX,  XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,\
+     XXXXXXX, RGB_HUD, RGB_SAD, RGB_VAD, RGB_SPD, KC_LGUI,                        XXXXXXX, XXXXXXX,  XXXXXXX,   KC_LEFT,  KC_DOWN, KC_RGHT,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                         KC_LCTL, KC_TRNS, KC_SPC,    KC_SPC, KC_TRNS, KC_RALT \
+                                         KC_LCTL, KC_TRNS, KC_LALT,    KC_SPC, KC_TRNS, KC_RALT \
                                       //|--------------------------|  |--------------------------|
   )
 };
@@ -423,14 +423,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false;
          case MACRO2:
     if (record->event.pressed) {
-            SEND_STRING("MACRO2");
+            SEND_STRING("JUAN PABLO ANDRES PALMA BUSTOS\n17.651.062-5\nCuenta Corriente\n0-000-72-44728-0\nBanco Santander\nJPPALMA@UC.CL");
         } else {
             
         }
         return false;
          case MACRO3:
     if (record->event.pressed) {
-            SEND_STRING("MACRO3");
+            SEND_STRING("IE28AIBK93129226846041");
         } else {
             
         }
