@@ -72,11 +72,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT(
   //|-----------------------------------------------------|                    |-----------------------------------------------------|
-     KC_ESC,  XXXXXXX,  KC_LSFT(KC_LBRC), KC_LSFT(KC_RBRC), KC_LBRC, KC_RBRC,          KC_7,    KC_8,    KC_9,    TD(TD_PASTPSLS),    KC_PEQL,   KC_PGUP,
+     KC_ESC,  XXXXXXX,  LSFT(KC_LBRC), LSFT(KC_RBRC), KC_LBRC, KC_RBRC,          KC_7,    KC_8,    KC_9,    TD(TD_PASTPSLS),    KC_PEQL,   KC_PGUP,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     KC_TRNS, KC_BSLS, XXXXXXX, XXXXXXX, KC_LSFT(KC_9), KC_LSFT(KC_0),                      KC_4 , KC_5, KC_6,   TD(TD_PLSMNS),  KC_UP, KC_PGDN,
+     KC_TRNS, KC_BSLS, XXXXXXX, XXXXXXX, LSFT(KC_9), LSFT(KC_0),                      KC_4 , KC_5, KC_6,   TD(TD_PLSMNS),  KC_UP, KC_PGDN,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     KC_TRNS, KC_LSFT(KC_GRV), KC_LSFT(KC_1), KC_AT, KC_HASH, KC_UNDS,                     KC_1 , KC_2, KC_3, KC_LEFT,  KC_DOWN, KC_RGHT,
+     KC_TRNS, LSFT(KC_GRV), LSFT(KC_1), KC_AT, KC_HASH, KC_UNDS,                     KC_1 , KC_2, KC_3, KC_LEFT,  KC_DOWN, KC_RGHT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                          LSFT_T(KC_LGUI), KC_TRNS, KC_TRNS,    KC_ENT, KC_0, TD(TD_DOTCOM)
                                       //|--------------------------|  |--------------------------|
