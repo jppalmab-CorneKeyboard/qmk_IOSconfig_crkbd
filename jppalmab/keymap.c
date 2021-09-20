@@ -72,11 +72,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT(
   //|-----------------------------------------------------|                    |-----------------------------------------------------|
-     KC_ESC,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,          KC_7,    KC_8,    KC_9,    TD(TD_PASTPSLS),    KC_PEQL,   KC_PGUP,
+     KC_ESC,  XXXXXXX,  KC_LSFT(KC_LBRC), KC_LSFT(KC_RBRC), KC_LBRC, KC_RBRC,          KC_7,    KC_8,    KC_9,    TD(TD_PASTPSLS),    KC_PEQL,   KC_PGUP,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     KC_TRNS, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10,                               KC_4 , KC_5, KC_6,   TD(TD_PLSMNS),  KC_UP, KC_PGDN,
+     KC_TRNS, KC_BSLS, XXXXXXX, XXXXXXX, KC_LSFT(KC_9), KC_LSFT(KC_0),                      KC_4 , KC_5, KC_6,   TD(TD_PLSMNS),  KC_UP, KC_PGDN,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     KC_TRNS, KC_F11, KC_F12, KC_AT, KC_HASH, KC_UNDS,                     KC_1 , KC_2, KC_3, KC_LEFT,  KC_DOWN, KC_RGHT,
+     KC_TRNS, KC_LSFT(KC_GRV), KC_LSFT(KC_1), KC_AT, KC_HASH, KC_UNDS,                     KC_1 , KC_2, KC_3, KC_LEFT,  KC_DOWN, KC_RGHT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                          LSFT_T(KC_LGUI), KC_TRNS, KC_TRNS,    KC_ENT, KC_0, TD(TD_DOTCOM)
                                       //|--------------------------|  |--------------------------|
@@ -84,11 +84,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = LAYOUT(
   //|-----------------------------------------------------|                    |-----------------------------------------------------|
-     KC_GRV,  KC_1, KC_2,  KC_3, KC_4, KC_5,                        KC_6, KC_7, KC_8, KC_9, KC_0, KC_DEL,
+     KC_GRV,  KC_F1, KC_F2,  KC_F3, KC_F4, KC_F5,                               KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_DEL,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     KC_PSCR, KC_MPRV, KC_MNXT,  KC_MRWD, KC_MSTP, KC_MFFD,                              TD(TD_LBRC), TD(TD_RBRC), TD(TD_BSLS),  KC_BRIU, KC_VOLU, KC_MUTE,
+     KC_PSCR, KC_F11, KC_F12,  KC_MRWD, KC_MSTP, KC_MFFD,                       TD(TD_LBRC), TD(TD_RBRC), TD(TD_BSLS),  KC_BRIU, KC_VOLU, KC_MUTE,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     KC_CALC, LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), LCTL(KC_F),                              MACRO1, MACRO2, MACRO3, KC_BRID, KC_VOLD, KC_MPLY,
+     KC_CALC, LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), LCTL(KC_F),       MACRO1, MACRO2, MACRO3, KC_BRID, KC_VOLD, KC_MPLY,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LSFT, LOWER, KC_SPC,    KC_SPC, KC_TRNS, KC_RSFT
                                       //|--------------------------|  |--------------------------|
