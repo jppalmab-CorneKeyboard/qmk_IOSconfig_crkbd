@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT(
   //|-----------------------------------------------------|                    |-----------------------------------------------------|
-     KC_ESC,  KC_PSLS,  LSFT(KC_LBRC), LSFT(KC_RBRC), KC_LBRC, KC_RBRC,          KC_7,    KC_8,    KC_9,    TD(TD_PASTPSLS),    KC_PEQL,   KC_PGUP,
+     KC_ESC,  KC_MINS,  LSFT(KC_LBRC), LSFT(KC_RBRC), KC_LBRC, KC_RBRC,          KC_7,    KC_8,    KC_9,    TD(TD_PASTPSLS),    KC_PEQL,   KC_PGUP,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
      KC_TRNS, KC_BSLS, LSFT(KC_4), LSFT(KC_8), LSFT(KC_9), LSFT(KC_0),                      KC_4 , KC_5, KC_6,   TD(TD_PLSMNS),  KC_UP, KC_PGDN,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
