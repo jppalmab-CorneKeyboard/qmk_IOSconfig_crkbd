@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
      KC_CALC, LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), LCTL(KC_F),       MACRO1, MACRO2, MACRO3, KC_BRID, KC_VOLD, KC_MPLY,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LSFT, LOWER, KC_SPC,    KC_SPC, KC_TRNS, KC_RSFT
+                                          KC_LSFT, LOWER, KC_LALT,    KC_SPC, KC_TRNS, KC_RSFT
                                       //|--------------------------|  |--------------------------|
   ),
 
